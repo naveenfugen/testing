@@ -13,7 +13,6 @@ function App() {
             element={<PageRenderer />}
           />
 
-          
         ))}
       </Routes>
     </BrowserRouter>

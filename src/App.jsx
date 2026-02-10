@@ -23,5 +23,5 @@ export default App;
 
 
 
-//newly added code to render pages based on the paths defined in the data file. Each path will render the PageRenderer component, which will handle the logic for displaying the appropriate content based on the URL.
+
 

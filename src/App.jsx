@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageRenderer from "./pageRender";
 import pagePaths  from "./data";
+import Loader from "./test";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
         ))}
       </Routes>
+      <Loader/>
     </BrowserRouter>
   );
 }

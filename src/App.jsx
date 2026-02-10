@@ -12,6 +12,8 @@ function App() {
             path={path}
             element={<PageRenderer />}
           />
+
+          
         ))}
       </Routes>
     </BrowserRouter>
